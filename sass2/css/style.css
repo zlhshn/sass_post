@@ -1,0 +1,53 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Mulish&family=Playfair+Display&family=Rampart+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  width: 50px;
+  height: 50px;
+}
+.header i {
+  display: none;
+}
+.header__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  gap: 0.5rem;
+}
+.header__links--home {
+  background-color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  color: #202336;
+  font-family: "Inter";
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 18px;
+}
+.header__links--disabled {
+  @e;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.container {
+  padding: 1rem;
+  margin: auto;
+  max-width: 1536px;
+}
+
+/*# sourceMappingURL=style.css.map */

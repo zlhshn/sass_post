@@ -1,0 +1,23 @@
+@mixin flex($jc, $ai:center){
+
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+}
+
+@mixin font($ff,$fs,$fw,$lh){
+
+    font-family: $ff;
+    font-size: $fs;
+    font-weight: $fw;
+    line-height: $lh;
+    
+}
+
+@mixin btn($bg){
+    background-color: $bg;
+    outline: none;
+    cursor: pointer;
+    border: none;
+
+}
